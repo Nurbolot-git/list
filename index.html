@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кредитное бюро</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+<link href="https://cdn.jsdelivr.net/npm/suggestions-jquery@20.3.0/dist/css/suggestions.min.css" rel="stylesheet" />
+    <script defer src="./js/main.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3 ">
+        <a class="navbar-brand">Кредитное бюро</a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse d-flex justify-content-end">
+            <ul class="navbar-nav mr-auto ">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Главная </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Услуги</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Цены</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Рекламы</a>
+                </li>
+                <form action="" class="search-form w-50">
+                    <div class="input-group" >
+                        <input class="form-control" type="text" name="" placeholder="Поиск" aria-label="Поиск" aria-describedby="my-addon">
+                        <button class="btn btn-outline-light">Поиск</button>
+                    </div>
+                </form>
+            </ul>
+        </div>
+    </nav>
+    <section class="main py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="h1 mt-4 mb-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, fuga!&nbsp;
+                    </h1>
+                    <p class="text mb-4 mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur accusantium sapiente    explicabo rem dicta quasi ab sit nostrum quia non.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label class="mb-2" for="fio">ФИО</label>
+                                <input id="fio" class="form-control fio" type="text" name="fio" placeholder="Например, Иванов Иван Иванович">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="mb-2" for="job">Место работы</label>
+                                <input id="job" class="form-control job" type="text" name="job" placeholder="Например, МВидио">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="mb-2" for="real-address">Факктический адрес</label>
+                                <input id="real-address " class="form-control address" type="text" name="real_address" placeholder="Например, ул. Ленина 20,59">
+                            </div>
+                        </div>
+                        <!-- /.col-md-6 -->
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label class="mb-2" for="date">Дата рождения</label>
+                                <input id="date" class="form-control" type="date" name="date" placeholder="">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="mb-2" for="address">Адрес прописки</label>
+                                <input id="address" class="form-control address" type="address" name="address" placeholder="Например, ул. Ленина 20,59">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="mb-2" for="family">Семейное положение</label>
+                                <select id="family" class="form-control" name="family">
+                                    <option>холост</option>
+                                    <option>женат/замужем</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- /.col-md-6 -->
+                    </div>
+                    <!-- /.row -->
+                    <button class="btn btn-primary bt-4" type="submit">Отправить заявку</button>
+                </div>
+                <!-- /.col-md-6 -->
+                <div class="col-md-5 offset-md-1">
+                    <img src="./img/image.jpg" alt="" class="mw-100 rounded">
+                </div>
+                <!-- /.col-md-5-->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/suggestions-jquery@20.3.0/dist/js/jquery.suggestions.min.js"></script>
+</body>
+</html>
